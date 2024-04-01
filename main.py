@@ -30,7 +30,7 @@ def run_experiments(min_s, max_s, s_step):
 
         solucion = solutions.problema_solucion_bottom_up(S)
         print(solucion)
-        print(f'{n}, {time_meomizado} ,{time_bottom_up}, {time_solucion}')
+        print(f'{n}, {time_meomizado} ,{time_bottom_up}')
 
 if __name__ == "__main__":
     ## Check arguments
