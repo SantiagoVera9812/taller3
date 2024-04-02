@@ -49,7 +49,7 @@ def run_experiments(min_s, max_s, s_step):
         print(sum(solutions.obtener_numeros_seleccionados(S,solucion)))
         '''
         time_solucion = measure_time(S,solutions.obtener_numeros_seleccionados, solucion)
-        print(f'{n}, {time_meomizado} ,{time_bottom_up}, {time_solucion}')
+        print(f'{n} , {time_meomizado} , {time_bottom_up} , {time_solucion}')
 
 if __name__ == "__main__":
     ## Check arguments
