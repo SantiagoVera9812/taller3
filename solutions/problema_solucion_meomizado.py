@@ -1,4 +1,4 @@
-def problema_solucion_meomizado(d,M):
+def problema_solucion_meomizado(d):
     #Matriz meomizada llena de -inf
     M = {i: float('-inf') for i in range(len(d))}
     return problema_solucion_meomizado_aux(d, 0, M)
